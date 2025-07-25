@@ -422,4 +422,6 @@ CMakeFiles/eventCam.dir/src/main.cpp.o: \
  /usr/include/c++/11/variant \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
- /home/moa/projects/c++/eventcam/include/menuGUI.hpp
+ /home/moa/projects/c++/eventcam/include/menuGUI.hpp \
+ /home/moa/projects/c++/eventcam/include/menuGUI.hpp \
+ /home/moa/projects/c++/eventcam/include/camera_global.hpp

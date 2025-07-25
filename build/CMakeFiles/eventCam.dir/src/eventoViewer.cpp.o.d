@@ -1,7 +1,8 @@
 CMakeFiles/eventCam.dir/src/eventoViewer.cpp.o: \
  /home/moa/projects/c++/eventcam/src/eventoViewer.cpp \
- /usr/include/stdc-predef.h /usr/include/metavision/sdk/driver/camera.h \
- /usr/include/c++/11/cstdint \
+ /usr/include/stdc-predef.h \
+ /usr/include/metavision/sdk/core/algorithms/periodic_frame_generation_algorithm.h \
+ /usr/include/c++/11/functional \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -13,19 +14,11 @@ CMakeFiles/eventCam.dir/src/eventoViewer.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
  /usr/include/c++/11/pstl/pstl_config.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/typesizes.h \
- /usr/include/x86_64-linux-gnu/bits/time64.h \
- /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/c++/11/functional /usr/include/c++/11/bits/stl_function.h \
- /usr/include/c++/11/bits/move.h /usr/include/c++/11/type_traits \
- /usr/include/c++/11/backward/binders.h /usr/include/c++/11/new \
- /usr/include/c++/11/bits/exception.h /usr/include/c++/11/tuple \
- /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
+ /usr/include/c++/11/bits/stl_function.h /usr/include/c++/11/bits/move.h \
+ /usr/include/c++/11/type_traits /usr/include/c++/11/backward/binders.h \
+ /usr/include/c++/11/new /usr/include/c++/11/bits/exception.h \
+ /usr/include/c++/11/tuple /usr/include/c++/11/utility \
+ /usr/include/c++/11/bits/stl_relops.h \
  /usr/include/c++/11/bits/stl_pair.h /usr/include/c++/11/initializer_list \
  /usr/include/c++/11/array /usr/include/c++/11/bits/functexcept.h \
  /usr/include/c++/11/bits/exception_defines.h \
@@ -65,6 +58,7 @@ CMakeFiles/eventCam.dir/src/eventoViewer.cpp.o: \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/cstdlib /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -73,10 +67,14 @@ CMakeFiles/eventCam.dir/src/eventoViewer.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endianness.h \
  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
@@ -98,25 +96,33 @@ CMakeFiles/eventCam.dir/src/eventoViewer.cpp.o: \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
- /usr/include/c++/11/bits/uniform_int_dist.h /usr/include/c++/11/ostream \
- /usr/include/c++/11/ios /usr/include/c++/11/iosfwd \
- /usr/include/c++/11/bits/stringfwd.h /usr/include/c++/11/bits/postypes.h \
- /usr/include/c++/11/cwchar /usr/include/wchar.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+ /usr/include/c++/11/bits/uniform_int_dist.h \
+ /usr/include/metavision/sdk/core/algorithms/base_frame_generation_algorithm.h \
+ /usr/include/c++/11/stdexcept /usr/include/c++/11/exception \
+ /usr/include/c++/11/bits/exception_ptr.h \
+ /usr/include/c++/11/bits/cxxabi_init_exception.h \
+ /usr/include/c++/11/bits/nested_exception.h /usr/include/c++/11/string \
+ /usr/include/c++/11/bits/stringfwd.h \
+ /usr/include/c++/11/bits/char_traits.h \
+ /usr/include/c++/11/bits/postypes.h /usr/include/c++/11/cwchar \
+ /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
- /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
- /usr/include/c++/11/bits/cxxabi_init_exception.h \
- /usr/include/c++/11/bits/nested_exception.h \
- /usr/include/c++/11/bits/char_traits.h \
+ /usr/include/c++/11/cstdint \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/c++/11/bits/localefwd.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
  /usr/include/c++/11/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/11/cctype \
- /usr/include/ctype.h /usr/include/c++/11/bits/ios_base.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/11/iosfwd \
+ /usr/include/c++/11/cctype /usr/include/ctype.h \
+ /usr/include/c++/11/bits/ostream_insert.h \
+ /usr/include/c++/11/bits/cxxabi_forced.h \
+ /usr/include/c++/11/bits/basic_string.h \
  /usr/include/c++/11/ext/atomicity.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
@@ -133,11 +139,7 @@ CMakeFiles/eventCam.dir/src/eventoViewer.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
- /usr/include/c++/11/bits/locale_classes.h /usr/include/c++/11/string \
- /usr/include/c++/11/bits/ostream_insert.h \
- /usr/include/c++/11/bits/cxxabi_forced.h \
- /usr/include/c++/11/bits/basic_string.h /usr/include/c++/11/string_view \
- /usr/include/c++/11/bits/string_view.tcc \
+ /usr/include/c++/11/string_view /usr/include/c++/11/bits/string_view.tcc \
  /usr/include/c++/11/ext/string_conversions.h /usr/include/c++/11/cstdio \
  /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
@@ -150,12 +152,14 @@ CMakeFiles/eventCam.dir/src/eventoViewer.cpp.o: \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
- /usr/include/c++/11/bits/basic_string.tcc \
+ /usr/include/c++/11/bits/basic_string.tcc /usr/include/c++/11/sstream \
+ /usr/include/c++/11/istream /usr/include/c++/11/ios \
+ /usr/include/c++/11/bits/ios_base.h \
+ /usr/include/c++/11/bits/locale_classes.h \
  /usr/include/c++/11/bits/locale_classes.tcc \
  /usr/include/c++/11/system_error \
  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
- /usr/include/c++/11/stdexcept /usr/include/c++/11/streambuf \
- /usr/include/c++/11/bits/streambuf.tcc \
+ /usr/include/c++/11/streambuf /usr/include/c++/11/bits/streambuf.tcc \
  /usr/include/c++/11/bits/basic_ios.h \
  /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype \
  /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
@@ -163,10 +167,12 @@ CMakeFiles/eventCam.dir/src/eventoViewer.cpp.o: \
  /usr/include/c++/11/bits/streambuf_iterator.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
  /usr/include/c++/11/bits/locale_facets.tcc \
- /usr/include/c++/11/bits/basic_ios.tcc \
- /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
+ /usr/include/c++/11/bits/basic_ios.tcc /usr/include/c++/11/ostream \
+ /usr/include/c++/11/bits/ostream.tcc \
  /usr/include/c++/11/bits/istream.tcc \
- /usr/local/include/opencv4/opencv2/core.hpp \
+ /usr/include/c++/11/bits/sstream.tcc \
+ /usr/local/include/opencv4/opencv2/core/mat.hpp \
+ /usr/local/include/opencv4/opencv2/core/matx.hpp \
  /usr/local/include/opencv4/opencv2/core/cvdef.h \
  /usr/include/c++/11/limits \
  /usr/local/include/opencv4/opencv2/core/hal/interface.h \
@@ -177,7 +183,6 @@ CMakeFiles/eventCam.dir/src/eventoViewer.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
  /usr/include/c++/11/stdlib.h \
- /usr/local/include/opencv4/opencv2/core/version.hpp \
  /usr/local/include/opencv4/opencv2/core/base.hpp \
  /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/include/c++/11/climits \
@@ -234,20 +239,21 @@ CMakeFiles/eventCam.dir/src/eventoViewer.cpp.o: \
  /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp \
  /usr/include/assert.h /usr/local/include/opencv4/opencv2/core/check.hpp \
  /usr/local/include/opencv4/opencv2/core/traits.hpp \
- /usr/local/include/opencv4/opencv2/core/matx.hpp \
  /usr/local/include/opencv4/opencv2/core/saturate.hpp \
  /usr/local/include/opencv4/opencv2/core/fast_math.hpp \
  /usr/local/include/opencv4/opencv2/core/types.hpp \
  /usr/include/c++/11/cfloat \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
- /usr/local/include/opencv4/opencv2/core/mat.hpp \
  /usr/local/include/opencv4/opencv2/core/bufferpool.hpp \
  /usr/local/include/opencv4/opencv2/core/mat.inl.hpp \
+ /usr/include/metavision/sdk/base/utils/timestamp.h \
+ /usr/include/metavision/sdk/core/utils/colors.h \
+ /usr/local/include/opencv4/opencv2/core.hpp \
+ /usr/local/include/opencv4/opencv2/core/version.hpp \
  /usr/local/include/opencv4/opencv2/core/persistence.hpp \
  /usr/local/include/opencv4/opencv2/core/operations.hpp \
  /usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp \
- /usr/include/c++/11/complex /usr/include/c++/11/sstream \
- /usr/include/c++/11/bits/sstream.tcc \
+ /usr/include/c++/11/complex \
  /usr/local/include/opencv4/opencv2/core/utility.hpp \
  /usr/include/c++/11/mutex /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/ctime \
@@ -257,60 +263,6 @@ CMakeFiles/eventCam.dir/src/eventoViewer.cpp.o: \
  /usr/local/include/opencv4/opencv2/core/optim.hpp \
  /usr/local/include/opencv4/opencv2/core/ovx.hpp \
  /usr/local/include/opencv4/opencv2/core/cvdef.h \
- /usr/include/metavision/hal/device/device.h \
- /usr/include/metavision/hal/facilities/i_registrable_facility.h \
- /usr/include/metavision/hal/facilities/i_facility.h \
- /usr/include/c++/11/unordered_set \
- /usr/include/c++/11/bits/unordered_set.h \
- /usr/include/metavision/hal/facilities/detail/i_registrable_facility_impl.h \
- /usr/include/metavision/hal/facilities/detail/facility_wrapper.h \
- /usr/include/metavision/sdk/driver/file_config_hints.h \
- /usr/include/metavision/sdk/driver/cd.h \
- /usr/include/metavision/sdk/base/events/event_cd.h \
- /usr/include/metavision/sdk/base/events/event2d.h \
- /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
- /usr/include/c++/11/iostream \
- /usr/include/metavision/sdk/base/utils/detail/struct_pack.h \
- /usr/include/metavision/sdk/base/utils/timestamp.h \
- /usr/include/metavision/sdk/base/events/detail/event_traits.h \
- /usr/include/metavision/sdk/base/utils/callback_id.h \
- /usr/include/metavision/sdk/driver/erc_counter.h \
- /usr/include/metavision/sdk/base/events/event_erc_counter.h \
- /usr/include/metavision/sdk/driver/ext_trigger.h \
- /usr/include/metavision/sdk/base/events/event_ext_trigger.h \
- /usr/include/metavision/sdk/driver/frame_diff.h \
- /usr/include/metavision/sdk/base/events/raw_event_frame_diff.h \
- /usr/include/metavision/sdk/driver/frame_histo.h \
- /usr/include/metavision/sdk/base/events/raw_event_frame_histo.h \
- /usr/include/metavision/sdk/driver/trigger_out.h \
- /usr/include/metavision/hal/facilities/i_trigger_out.h \
- /usr/include/metavision/sdk/driver/raw_data.h \
- /usr/include/metavision/sdk/driver/roi.h \
- /usr/include/metavision/hal/facilities/i_roi.h \
- /usr/include/metavision/sdk/driver/biases.h \
- /usr/include/metavision/hal/facilities/i_ll_biases.h \
- /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
- /usr/include/c++/11/bits/stl_map.h \
- /usr/include/c++/11/bits/stl_multimap.h \
- /usr/include/metavision/hal/utils/device_config.h \
- /usr/include/metavision/sdk/driver/offline_streaming_control.h \
- /usr/include/metavision/sdk/driver/geometry.h \
- /usr/include/metavision/hal/facilities/i_geometry.h \
- /usr/include/metavision/sdk/driver/camera_generation.h \
- /usr/include/metavision/sdk/driver/camera_exception.h \
- /usr/include/metavision/sdk/base/utils/error_utils.h \
- /usr/include/metavision/sdk/driver/camera_error_code.h \
- /usr/include/metavision/sdk/driver/antiflicker_module.h \
- /usr/include/metavision/hal/facilities/i_antiflicker_module.h \
- /usr/include/metavision/sdk/driver/erc_module.h \
- /usr/include/metavision/hal/facilities/i_erc_module.h \
- /usr/include/metavision/sdk/driver/event_trail_filter_module.h \
- /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
- /usr/include/c++/11/bits/stl_multiset.h \
- /usr/include/metavision/hal/facilities/i_event_trail_filter_module.h \
- /usr/include/metavision/sdk/core/algorithms/periodic_frame_generation_algorithm.h \
- /usr/include/metavision/sdk/core/algorithms/base_frame_generation_algorithm.h \
- /usr/include/metavision/sdk/core/utils/colors.h \
  /usr/include/metavision/sdk/core/utils/detail/colors_impl.h \
  /usr/include/metavision/sdk/core/algorithms/detail/base_frame_generation_algorithm_impl.h \
  /usr/include/metavision/sdk/core/algorithms/event_buffer_reslicer_algorithm.h \
@@ -327,7 +279,60 @@ CMakeFiles/eventCam.dir/src/eventoViewer.cpp.o: \
  /usr/include/metavision/sdk/ui/utils/opengl_api.h /usr/include/GL/glew.h \
  /usr/include/GL/glu.h /usr/include/GL/gl.h /usr/include/GLFW/glfw3.h \
  /usr/include/metavision/sdk/ui/utils/event_loop.h \
+ /usr/include/metavision/hal/facilities/i_ll_biases.h \
+ /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
+ /usr/include/c++/11/bits/stl_map.h \
+ /usr/include/c++/11/bits/stl_multimap.h \
+ /usr/include/metavision/hal/facilities/i_registrable_facility.h \
+ /usr/include/metavision/hal/facilities/i_facility.h \
+ /usr/include/c++/11/unordered_set \
+ /usr/include/c++/11/bits/unordered_set.h \
+ /usr/include/metavision/hal/facilities/detail/i_registrable_facility_impl.h \
+ /usr/include/metavision/hal/utils/device_config.h \
+ /usr/include/c++/11/iostream /usr/include/c++/11/thread \
+ /usr/include/c++/11/bits/std_thread.h \
+ /usr/include/c++/11/bits/this_thread_sleep.h \
  /home/moa/projects/c++/eventcam/include/eventoViewer.hpp \
+ /usr/include/metavision/sdk/driver/camera.h \
+ /usr/include/metavision/hal/device/device.h \
+ /usr/include/metavision/hal/facilities/detail/facility_wrapper.h \
+ /usr/include/metavision/sdk/driver/file_config_hints.h \
+ /usr/include/metavision/sdk/driver/cd.h \
+ /usr/include/metavision/sdk/base/events/event_cd.h \
+ /usr/include/metavision/sdk/base/events/event2d.h \
+ /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
+ /usr/include/metavision/sdk/base/utils/detail/struct_pack.h \
+ /usr/include/metavision/sdk/base/events/detail/event_traits.h \
+ /usr/include/metavision/sdk/base/utils/callback_id.h \
+ /usr/include/metavision/sdk/driver/erc_counter.h \
+ /usr/include/metavision/sdk/base/events/event_erc_counter.h \
+ /usr/include/metavision/sdk/driver/ext_trigger.h \
+ /usr/include/metavision/sdk/base/events/event_ext_trigger.h \
+ /usr/include/metavision/sdk/driver/frame_diff.h \
+ /usr/include/metavision/sdk/base/events/raw_event_frame_diff.h \
+ /usr/include/metavision/sdk/driver/frame_histo.h \
+ /usr/include/metavision/sdk/base/events/raw_event_frame_histo.h \
+ /usr/include/metavision/sdk/driver/trigger_out.h \
+ /usr/include/metavision/hal/facilities/i_trigger_out.h \
+ /usr/include/metavision/sdk/driver/raw_data.h \
+ /usr/include/metavision/sdk/driver/roi.h \
+ /usr/include/metavision/hal/facilities/i_roi.h \
+ /usr/include/metavision/sdk/driver/biases.h \
+ /usr/include/metavision/sdk/driver/offline_streaming_control.h \
+ /usr/include/metavision/sdk/driver/geometry.h \
+ /usr/include/metavision/hal/facilities/i_geometry.h \
+ /usr/include/metavision/sdk/driver/camera_generation.h \
+ /usr/include/metavision/sdk/driver/camera_exception.h \
+ /usr/include/metavision/sdk/base/utils/error_utils.h \
+ /usr/include/metavision/sdk/driver/camera_error_code.h \
+ /usr/include/metavision/sdk/driver/antiflicker_module.h \
+ /usr/include/metavision/hal/facilities/i_antiflicker_module.h \
+ /usr/include/metavision/sdk/driver/erc_module.h \
+ /usr/include/metavision/hal/facilities/i_erc_module.h \
+ /usr/include/metavision/sdk/driver/event_trail_filter_module.h \
+ /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
+ /usr/include/c++/11/bits/stl_multiset.h \
+ /usr/include/metavision/hal/facilities/i_event_trail_filter_module.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -423,4 +428,6 @@ CMakeFiles/eventCam.dir/src/eventoViewer.cpp.o: \
  /usr/include/c++/11/variant \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
- /home/moa/projects/c++/eventcam/include/menuGUI.hpp
+ /home/moa/projects/c++/eventcam/include/menuGUI.hpp \
+ /home/moa/projects/c++/eventcam/include/menuGUI.hpp \
+ /home/moa/projects/c++/eventcam/include/camera_global.hpp
