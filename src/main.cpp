@@ -3,7 +3,7 @@
 // Data: 17/07/2025
 
 
-#include <metavision/sdk/driver/camera.h>
+#include <metavision/sdk/stream/camera.h>
 #include <metavision/sdk/base/events/event_cd.h>
 #include <metavision/sdk/core/algorithms/periodic_frame_generation_algorithm.h>
 #include <metavision/sdk/ui/utils/window.h>

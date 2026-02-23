@@ -2,7 +2,7 @@
 #define FUNCOES_EVENTOS_HPP
 
 #include <metavision/sdk/ui/utils/window.h>
-#include <metavision/sdk/driver/camera.h>
+#include <metavision/sdk/stream/camera.h>
 #include <metavision/sdk/base/events/event_cd.h>
 #include <QLineEdit>
 

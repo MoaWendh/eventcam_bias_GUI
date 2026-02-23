@@ -9,7 +9,7 @@
 #include <QString>
 #include <QGroupBox>
 
-#include <metavision/sdk/driver/camera.h>
+#include <metavision/sdk/stream/camera.h>
 #include <metavision/hal/facilities/i_ll_biases.h>
 #include <metavision/sdk/core/algorithms/periodic_frame_generation_algorithm.h>
 #include <metavision/sdk/ui/utils/window.h>

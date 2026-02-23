@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/moa/projects/c++/eventcam
+CMAKE_SOURCE_DIR = /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/moa/projects/c++/eventcam/build
+CMAKE_BINARY_DIR = /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moa/projects/c++/eventcam/build/CMakeFiles /home/moa/projects/c++/eventcam/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build/CMakeFiles /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moa/projects/c++/eventcam/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,61 +117,61 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named eventCam
+# Target rules for targets named eventcam_GUI
 
 # Build rule for target.
-eventCam: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 eventCam
-.PHONY : eventCam
+eventcam_GUI: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 eventcam_GUI
+.PHONY : eventcam_GUI
 
 # fast build rule for target.
-eventCam/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventCam.dir/build.make CMakeFiles/eventCam.dir/build
-.PHONY : eventCam/fast
+eventcam_GUI/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventcam_GUI.dir/build.make CMakeFiles/eventcam_GUI.dir/build
+.PHONY : eventcam_GUI/fast
 
 #=============================================================================
-# Target rules for targets named eventCam_autogen
+# Target rules for targets named eventcam_GUI_autogen
 
 # Build rule for target.
-eventCam_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 eventCam_autogen
-.PHONY : eventCam_autogen
+eventcam_GUI_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 eventcam_GUI_autogen
+.PHONY : eventcam_GUI_autogen
 
 # fast build rule for target.
-eventCam_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventCam_autogen.dir/build.make CMakeFiles/eventCam_autogen.dir/build
-.PHONY : eventCam_autogen/fast
+eventcam_GUI_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventcam_GUI_autogen.dir/build.make CMakeFiles/eventcam_GUI_autogen.dir/build
+.PHONY : eventcam_GUI_autogen/fast
 
-eventCam_autogen/mocs_compilation.o: eventCam_autogen/mocs_compilation.cpp.o
-.PHONY : eventCam_autogen/mocs_compilation.o
+eventcam_GUI_autogen/mocs_compilation.o: eventcam_GUI_autogen/mocs_compilation.cpp.o
+.PHONY : eventcam_GUI_autogen/mocs_compilation.o
 
 # target to build an object file
-eventCam_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventCam.dir/build.make CMakeFiles/eventCam.dir/eventCam_autogen/mocs_compilation.cpp.o
-.PHONY : eventCam_autogen/mocs_compilation.cpp.o
+eventcam_GUI_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventcam_GUI.dir/build.make CMakeFiles/eventcam_GUI.dir/eventcam_GUI_autogen/mocs_compilation.cpp.o
+.PHONY : eventcam_GUI_autogen/mocs_compilation.cpp.o
 
-eventCam_autogen/mocs_compilation.i: eventCam_autogen/mocs_compilation.cpp.i
-.PHONY : eventCam_autogen/mocs_compilation.i
+eventcam_GUI_autogen/mocs_compilation.i: eventcam_GUI_autogen/mocs_compilation.cpp.i
+.PHONY : eventcam_GUI_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-eventCam_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventCam.dir/build.make CMakeFiles/eventCam.dir/eventCam_autogen/mocs_compilation.cpp.i
-.PHONY : eventCam_autogen/mocs_compilation.cpp.i
+eventcam_GUI_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventcam_GUI.dir/build.make CMakeFiles/eventcam_GUI.dir/eventcam_GUI_autogen/mocs_compilation.cpp.i
+.PHONY : eventcam_GUI_autogen/mocs_compilation.cpp.i
 
-eventCam_autogen/mocs_compilation.s: eventCam_autogen/mocs_compilation.cpp.s
-.PHONY : eventCam_autogen/mocs_compilation.s
+eventcam_GUI_autogen/mocs_compilation.s: eventcam_GUI_autogen/mocs_compilation.cpp.s
+.PHONY : eventcam_GUI_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-eventCam_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventCam.dir/build.make CMakeFiles/eventCam.dir/eventCam_autogen/mocs_compilation.cpp.s
-.PHONY : eventCam_autogen/mocs_compilation.cpp.s
+eventcam_GUI_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventcam_GUI.dir/build.make CMakeFiles/eventcam_GUI.dir/eventcam_GUI_autogen/mocs_compilation.cpp.s
+.PHONY : eventcam_GUI_autogen/mocs_compilation.cpp.s
 
 src/eventoViewer.o: src/eventoViewer.cpp.o
 .PHONY : src/eventoViewer.o
 
 # target to build an object file
 src/eventoViewer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventCam.dir/build.make CMakeFiles/eventCam.dir/src/eventoViewer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventcam_GUI.dir/build.make CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.o
 .PHONY : src/eventoViewer.cpp.o
 
 src/eventoViewer.i: src/eventoViewer.cpp.i
@@ -179,7 +179,7 @@ src/eventoViewer.i: src/eventoViewer.cpp.i
 
 # target to preprocess a source file
 src/eventoViewer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventCam.dir/build.make CMakeFiles/eventCam.dir/src/eventoViewer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventcam_GUI.dir/build.make CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.i
 .PHONY : src/eventoViewer.cpp.i
 
 src/eventoViewer.s: src/eventoViewer.cpp.s
@@ -187,7 +187,7 @@ src/eventoViewer.s: src/eventoViewer.cpp.s
 
 # target to generate assembly for a file
 src/eventoViewer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventCam.dir/build.make CMakeFiles/eventCam.dir/src/eventoViewer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventcam_GUI.dir/build.make CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.s
 .PHONY : src/eventoViewer.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -195,7 +195,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventCam.dir/build.make CMakeFiles/eventCam.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventcam_GUI.dir/build.make CMakeFiles/eventcam_GUI.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -203,7 +203,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventCam.dir/build.make CMakeFiles/eventCam.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventcam_GUI.dir/build.make CMakeFiles/eventcam_GUI.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -211,7 +211,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventCam.dir/build.make CMakeFiles/eventCam.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventcam_GUI.dir/build.make CMakeFiles/eventcam_GUI.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/menuGUI.o: src/menuGUI.cpp.o
@@ -219,7 +219,7 @@ src/menuGUI.o: src/menuGUI.cpp.o
 
 # target to build an object file
 src/menuGUI.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventCam.dir/build.make CMakeFiles/eventCam.dir/src/menuGUI.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventcam_GUI.dir/build.make CMakeFiles/eventcam_GUI.dir/src/menuGUI.cpp.o
 .PHONY : src/menuGUI.cpp.o
 
 src/menuGUI.i: src/menuGUI.cpp.i
@@ -227,7 +227,7 @@ src/menuGUI.i: src/menuGUI.cpp.i
 
 # target to preprocess a source file
 src/menuGUI.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventCam.dir/build.make CMakeFiles/eventCam.dir/src/menuGUI.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventcam_GUI.dir/build.make CMakeFiles/eventcam_GUI.dir/src/menuGUI.cpp.i
 .PHONY : src/menuGUI.cpp.i
 
 src/menuGUI.s: src/menuGUI.cpp.s
@@ -235,7 +235,7 @@ src/menuGUI.s: src/menuGUI.cpp.s
 
 # target to generate assembly for a file
 src/menuGUI.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventCam.dir/build.make CMakeFiles/eventCam.dir/src/menuGUI.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eventcam_GUI.dir/build.make CMakeFiles/eventcam_GUI.dir/src/menuGUI.cpp.s
 .PHONY : src/menuGUI.cpp.s
 
 # Help Target
@@ -246,11 +246,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... eventCam_autogen"
-	@echo "... eventCam"
-	@echo "... eventCam_autogen/mocs_compilation.o"
-	@echo "... eventCam_autogen/mocs_compilation.i"
-	@echo "... eventCam_autogen/mocs_compilation.s"
+	@echo "... eventcam_GUI_autogen"
+	@echo "... eventcam_GUI"
+	@echo "... eventcam_GUI_autogen/mocs_compilation.o"
+	@echo "... eventcam_GUI_autogen/mocs_compilation.i"
+	@echo "... eventcam_GUI_autogen/mocs_compilation.s"
 	@echo "... src/eventoViewer.o"
 	@echo "... src/eventoViewer.i"
 	@echo "... src/eventoViewer.s"

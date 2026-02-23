@@ -103,8 +103,8 @@ void frameEventView(int argc, char *argv[]){
     // Para visualizar os eventos, é necessário construir quadros (frames virtuais) e renderizá-los.
     // A construção dos quadros será realizada por um gerador de quadros que acumulará os eventos ao longo do tempo.
     // Parta isso, é necessário fornecer a resolução da câmera, que pode ser obtida a partir da instância da câmera
-    int camera_width  = cam.geometry().width();
-    int camera_height = cam.geometry().height();
+    int camera_width  = cam.geometry().get_width();
+    int camera_height = cam.geometry().get_height();
 
     // Também é necessário efinir o tempo acumulado, duração que define o volume de eventos, e ambém um frame rate.
     // Valores pré=definidos:  20ms e 50fps:
