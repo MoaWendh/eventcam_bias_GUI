@@ -49,6 +49,9 @@
 			"compileCommandFragments" : 
 			[
 				{
+					"fragment" : "-g"
+				},
+				{
 					"backtrace" : 2,
 					"fragment" : "-fPIC"
 				},
@@ -88,10 +91,6 @@
 				},
 				{
 					"backtrace" : 2,
-					"define" : "QT_NO_DEBUG"
-				},
-				{
-					"backtrace" : 2,
 					"define" : "QT_WIDGETS_LIB"
 				}
 			],
@@ -99,11 +98,11 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "/home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build/eventcam_GUI_autogen/include"
+					"path" : "/home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/build/eventcam_GUI_autogen/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/include"
+					"path" : "/home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/include"
 				},
 				{
 					"backtrace" : 2,
@@ -158,6 +157,9 @@
 	"dependencies" : 
 	[
 		{
+			"id" : "eventcam_GUI_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
 			"backtrace" : 0,
 			"id" : "eventcam_GUI_autogen::@6890427a1f51a3e7e1df"
 		}
@@ -167,6 +169,10 @@
 	{
 		"commandFragments" : 
 		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
 			{
 				"fragment" : "",
 				"role" : "flags"
@@ -278,6 +284,20 @@
 				2,
 				3
 			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				4
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				5
+			]
 		}
 	],
 	"sources" : 
@@ -306,6 +326,18 @@
 			"compileGroupIndex" : 0,
 			"path" : "src/menuGUI.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/eventcam_GUI_autogen/timestamp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/eventcam_GUI_autogen/timestamp.rule",
+			"sourceGroupIndex" : 2
 		}
 	],
 	"type" : "EXECUTABLE"

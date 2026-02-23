@@ -14,9 +14,9 @@
 			}
 		]
 	},
-	"id" : "eventcam_GUI_autogen::@6890427a1f51a3e7e1df",
+	"id" : "eventcam_GUI_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
 	"isGeneratorProvided" : true,
-	"name" : "eventcam_GUI_autogen",
+	"name" : "eventcam_GUI_autogen_timestamp_deps",
 	"paths" : 
 	{
 		"build" : ".",
@@ -44,13 +44,13 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/eventcam_GUI_autogen",
+			"path" : "build/CMakeFiles/eventcam_GUI_autogen_timestamp_deps",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/eventcam_GUI_autogen.rule",
+			"path" : "build/CMakeFiles/eventcam_GUI_autogen_timestamp_deps.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

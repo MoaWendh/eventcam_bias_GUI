@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/addr2line"
+			"value" : "/usr/bin/aarch64-linux-gnu-addr2line"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -71,7 +71,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/ar"
+			"value" : "/usr/bin/aarch64-linux-gnu-ar"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -79,11 +79,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel ..."
+					"value" : "No help, variable specified on the command line."
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "Debug"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -95,7 +95,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build"
+			"value" : "/home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -132,22 +132,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "1"
-		},
-		{
-			"name" : "CMAKE_COLOR_MAKEFILE",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable/Disable color output during build."
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
 		},
 		{
 			"name" : "CMAKE_COMMAND",
@@ -195,11 +179,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/c++"
+			"value" : "/usr/bin/aarch64-linux-gnu-g++"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -215,7 +199,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ar-11"
+			"value" : "/usr/bin/aarch64-linux-gnu-gcc-ar-11"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -231,7 +215,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ranlib-11"
+			"value" : "/usr/bin/aarch64-linux-gnu-gcc-ranlib-11"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -323,11 +307,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/cc"
+			"value" : "/usr/bin/aarch64-linux-gnu-gcc"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -343,7 +327,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ar-11"
+			"value" : "/usr/bin/aarch64-linux-gnu-gcc-ar-11"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -359,7 +343,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ranlib-11"
+			"value" : "/usr/bin/aarch64-linux-gnu-gcc-ranlib-11"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -554,16 +538,12 @@
 			"properties" : 
 			[
 				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
 					"name" : "HELPSTRING",
-					"value" : "Enable/Disable output of compile commands during generation."
+					"value" : "No help, variable specified on the command line."
 				}
 			],
 			"type" : "BOOL",
-			"value" : ""
+			"value" : "TRUE"
 		},
 		{
 			"name" : "CMAKE_EXTRA_GENERATOR",
@@ -587,7 +567,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "Unix Makefiles"
+			"value" : "Ninja"
 		},
 		{
 			"name" : "CMAKE_GENERATOR_INSTANCE",
@@ -659,7 +639,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/jetson/workspace_eventcam/projects/evetcam_bias_GUI"
+			"value" : "/home/jetson/workspace_eventcam/projects/eventcam_bias_GUI"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -699,7 +679,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/ld"
+			"value" : "/usr/bin/aarch64-linux-gnu-ld"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -711,11 +691,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Path to a program."
+					"value" : "Program used to build from build.ninja files."
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gmake"
+			"value" : "/usr/bin/ninja"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -811,7 +791,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/nm"
+			"value" : "/usr/bin/aarch64-linux-gnu-nm"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -839,7 +819,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/objcopy"
+			"value" : "/usr/bin/aarch64-linux-gnu-objcopy"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -855,7 +835,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/objdump"
+			"value" : "/usr/bin/aarch64-linux-gnu-objdump"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -919,7 +899,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/ranlib"
+			"value" : "/usr/bin/aarch64-linux-gnu-ranlib"
 		},
 		{
 			"name" : "CMAKE_READELF",
@@ -935,7 +915,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/readelf"
+			"value" : "/usr/bin/aarch64-linux-gnu-readelf"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1155,7 +1135,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/strip"
+			"value" : "/usr/bin/aarch64-linux-gnu-strip"
 		},
 		{
 			"name" : "CMAKE_UNAME",
@@ -1195,7 +1175,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build"
+			"value" : "/home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/build"
 		},
 		{
 			"name" : "Eventcam_bias_IS_TOP_LEVEL",
@@ -1219,7 +1199,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/jetson/workspace_eventcam/projects/evetcam_bias_GUI"
+			"value" : "/home/jetson/workspace_eventcam/projects/eventcam_bias_GUI"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_nlohmann_json",
