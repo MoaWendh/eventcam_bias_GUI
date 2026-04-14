@@ -117,7 +117,7 @@ void frameEventView(int argc, char *argv[]){
 
     std::cout<<"Variável cam.is_running() ""fora"" do loop POS 3="<<cam.is_running()<<std::endl;
 
-    // Define-se a callback que irá ser chamada para passar os eventos ao gerador de frames virtuais:  
+    // Regostra-se a callback que irá ser chamada para passar os eventos ao gerador de frames virtuais:  
     cam.cd().add_callback([&](const Metavision::EventCD *begin, const Metavision::EventCD *end) {
         frame_gen.process_events(begin, end);
     });
@@ -148,7 +148,6 @@ void frameEventView(int argc, char *argv[]){
     });
 
     //executar_loop_while_view(cam, window, running);
-
     std::thread viewer_thread([&cam, &window, &running]() {
         //frameEventView(); // Essa função NÃO deve usar widgets Qt
         executar_loop_while_view(cam, window, running);

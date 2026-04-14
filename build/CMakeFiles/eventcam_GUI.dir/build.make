@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI
+CMAKE_SOURCE_DIR = /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build
+CMAKE_BINARY_DIR = /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/eventcam_GUI.dir/depend.make
@@ -72,58 +72,58 @@ include CMakeFiles/eventcam_GUI.dir/flags.make
 CMakeFiles/eventcam_GUI.dir/eventcam_GUI_autogen/mocs_compilation.cpp.o: CMakeFiles/eventcam_GUI.dir/flags.make
 CMakeFiles/eventcam_GUI.dir/eventcam_GUI_autogen/mocs_compilation.cpp.o: eventcam_GUI_autogen/mocs_compilation.cpp
 CMakeFiles/eventcam_GUI.dir/eventcam_GUI_autogen/mocs_compilation.cpp.o: CMakeFiles/eventcam_GUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/eventcam_GUI.dir/eventcam_GUI_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eventcam_GUI.dir/eventcam_GUI_autogen/mocs_compilation.cpp.o -MF CMakeFiles/eventcam_GUI.dir/eventcam_GUI_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/eventcam_GUI.dir/eventcam_GUI_autogen/mocs_compilation.cpp.o -c /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build/eventcam_GUI_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/eventcam_GUI.dir/eventcam_GUI_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eventcam_GUI.dir/eventcam_GUI_autogen/mocs_compilation.cpp.o -MF CMakeFiles/eventcam_GUI.dir/eventcam_GUI_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/eventcam_GUI.dir/eventcam_GUI_autogen/mocs_compilation.cpp.o -c /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/build/eventcam_GUI_autogen/mocs_compilation.cpp
 
 CMakeFiles/eventcam_GUI.dir/eventcam_GUI_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/eventcam_GUI.dir/eventcam_GUI_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build/eventcam_GUI_autogen/mocs_compilation.cpp > CMakeFiles/eventcam_GUI.dir/eventcam_GUI_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/build/eventcam_GUI_autogen/mocs_compilation.cpp > CMakeFiles/eventcam_GUI.dir/eventcam_GUI_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/eventcam_GUI.dir/eventcam_GUI_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eventcam_GUI.dir/eventcam_GUI_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build/eventcam_GUI_autogen/mocs_compilation.cpp -o CMakeFiles/eventcam_GUI.dir/eventcam_GUI_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/build/eventcam_GUI_autogen/mocs_compilation.cpp -o CMakeFiles/eventcam_GUI.dir/eventcam_GUI_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/eventcam_GUI.dir/src/main.cpp.o: CMakeFiles/eventcam_GUI.dir/flags.make
 CMakeFiles/eventcam_GUI.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/eventcam_GUI.dir/src/main.cpp.o: CMakeFiles/eventcam_GUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/eventcam_GUI.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eventcam_GUI.dir/src/main.cpp.o -MF CMakeFiles/eventcam_GUI.dir/src/main.cpp.o.d -o CMakeFiles/eventcam_GUI.dir/src/main.cpp.o -c /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/eventcam_GUI.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eventcam_GUI.dir/src/main.cpp.o -MF CMakeFiles/eventcam_GUI.dir/src/main.cpp.o.d -o CMakeFiles/eventcam_GUI.dir/src/main.cpp.o -c /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/src/main.cpp
 
 CMakeFiles/eventcam_GUI.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/eventcam_GUI.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/src/main.cpp > CMakeFiles/eventcam_GUI.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/src/main.cpp > CMakeFiles/eventcam_GUI.dir/src/main.cpp.i
 
 CMakeFiles/eventcam_GUI.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eventcam_GUI.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/src/main.cpp -o CMakeFiles/eventcam_GUI.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/src/main.cpp -o CMakeFiles/eventcam_GUI.dir/src/main.cpp.s
 
 CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.o: CMakeFiles/eventcam_GUI.dir/flags.make
 CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.o: ../src/eventoViewer.cpp
 CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.o: CMakeFiles/eventcam_GUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.o -MF CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.o.d -o CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.o -c /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/src/eventoViewer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.o -MF CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.o.d -o CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.o -c /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/src/eventoViewer.cpp
 
 CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/src/eventoViewer.cpp > CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/src/eventoViewer.cpp > CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.i
 
 CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/src/eventoViewer.cpp -o CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/src/eventoViewer.cpp -o CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.s
 
 CMakeFiles/eventcam_GUI.dir/src/menuGUI.cpp.o: CMakeFiles/eventcam_GUI.dir/flags.make
 CMakeFiles/eventcam_GUI.dir/src/menuGUI.cpp.o: ../src/menuGUI.cpp
 CMakeFiles/eventcam_GUI.dir/src/menuGUI.cpp.o: CMakeFiles/eventcam_GUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/eventcam_GUI.dir/src/menuGUI.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eventcam_GUI.dir/src/menuGUI.cpp.o -MF CMakeFiles/eventcam_GUI.dir/src/menuGUI.cpp.o.d -o CMakeFiles/eventcam_GUI.dir/src/menuGUI.cpp.o -c /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/src/menuGUI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/eventcam_GUI.dir/src/menuGUI.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eventcam_GUI.dir/src/menuGUI.cpp.o -MF CMakeFiles/eventcam_GUI.dir/src/menuGUI.cpp.o.d -o CMakeFiles/eventcam_GUI.dir/src/menuGUI.cpp.o -c /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/src/menuGUI.cpp
 
 CMakeFiles/eventcam_GUI.dir/src/menuGUI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/eventcam_GUI.dir/src/menuGUI.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/src/menuGUI.cpp > CMakeFiles/eventcam_GUI.dir/src/menuGUI.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/src/menuGUI.cpp > CMakeFiles/eventcam_GUI.dir/src/menuGUI.cpp.i
 
 CMakeFiles/eventcam_GUI.dir/src/menuGUI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eventcam_GUI.dir/src/menuGUI.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/src/menuGUI.cpp -o CMakeFiles/eventcam_GUI.dir/src/menuGUI.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/src/menuGUI.cpp -o CMakeFiles/eventcam_GUI.dir/src/menuGUI.cpp.s
 
 # Object files for target eventcam_GUI
 eventcam_GUI_OBJECTS = \
@@ -160,7 +160,7 @@ eventcam_GUI: /usr/lib/aarch64-linux-gnu/libGLEW.so
 eventcam_GUI: /usr/lib/aarch64-linux-gnu/libQt5Gui.so.5.15.3
 eventcam_GUI: /usr/lib/aarch64-linux-gnu/libQt5Core.so.5.15.3
 eventcam_GUI: CMakeFiles/eventcam_GUI.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable eventcam_GUI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable eventcam_GUI"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/eventcam_GUI.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -172,6 +172,6 @@ CMakeFiles/eventcam_GUI.dir/clean:
 .PHONY : CMakeFiles/eventcam_GUI.dir/clean
 
 CMakeFiles/eventcam_GUI.dir/depend:
-	cd /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build/CMakeFiles/eventcam_GUI.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/build /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/build /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/build/CMakeFiles/eventcam_GUI.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/eventcam_GUI.dir/depend
 

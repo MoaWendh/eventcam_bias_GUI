@@ -49,7 +49,7 @@ void launchMenuGUI(int argc, char *argv[]) {
 
     // Janela principal
     QWidget window;
-    window.setWindowTitle("Menu Principal");
+    window.setWindowTitle("eventcam_bias_GUI");
     window.resize(sizeWindow_H, sizeWindow_V);
 
 
@@ -59,7 +59,8 @@ void launchMenuGUI(int argc, char *argv[]) {
     QPushButton *btnSair = new QPushButton("Sair", &window);
     QPushButton *btnRdBias = new QPushButton("Ler Biases", &window);
     QPushButton *btnSaveBias = new QPushButton("Salvar Biases (.json)", &window);
-    QPushButton *btnReconfigFrameVirtual = new QPushButton("Config. frame virtual", &window);
+   // QPushButton *btnReconfigFrameVirtual = new QPushButton("Config. frame virtual", &window);
+    QPushButton *btnWrBias = new QPushButton("Gravar Biases na Câmera", &window);
 
     // Layout principal vertical
     QVBoxLayout *btnLayout = new QVBoxLayout();
@@ -69,25 +70,32 @@ void launchMenuGUI(int argc, char *argv[]) {
     btnLayout->addWidget(btnSair);
     btnLayout->addWidget(btnRdBias);
     btnLayout->addWidget(btnSaveBias);
-    btnLayout->addWidget(btnReconfigFrameVirtual);
+    //btnLayout->addWidget(btnReconfigFrameVirtual);
+    btnLayout->addWidget(btnWrBias);
 
     // Posiciona os botões:
     btnRdBias->move(posIniH_Bt, posIniV_Bt-50);
     btnSaveBias->move(posIniH_Bt + 200, posIniV_Bt-50);
-    btnReconfigFrameVirtual->move(posIniH_Bt, posIniV_Bt);
+
+    //btnReconfigFrameVirtual->move(posIniH_Bt, posIniV_Bt);
+    btnWrBias->move(posIniH_Bt, posIniV_Bt);
     btnVisualizar->move(posIniH_Bt + 200, posIniV_Bt);
-    btnSair->move(posIniH_Bt, posIniV_Bt+50);
+    
+    //btnWrBias->move(posIniH_Bt, posIniV_Bt+50);
+    btnSair->move(posIniH_Bt+200, posIniV_Bt+50);
+    
 
     // Dimensões dos botões:
     btnSair->setFixedSize(sizeWidth_Bt, sizeHeigth_Bt); 
     btnVisualizar->setFixedSize(sizeWidth_Bt, sizeHeigth_Bt); 
     btnRdBias->setFixedSize(sizeWidth_Bt, sizeHeigth_Bt); 
     btnSaveBias->setFixedSize(sizeWidth_Bt, sizeHeigth_Bt); 
-    btnReconfigFrameVirtual->setFixedSize(sizeWidth_Bt, sizeHeigth_Bt); 
-
+    //btnReconfigFrameVirtual->setFixedSize(sizeWidth_Bt, sizeHeigth_Bt); 
+    btnWrBias->setFixedSize(sizeWidth_Bt, sizeHeigth_Bt); 
+    
     // Cores dos botões:
     btnSair->setStyleSheet("color: red;");
-    btnVisualizar->setStyleSheet("color: green;");
+    //btnVisualizar->setStyleSheet("color: green;");
 
 
     // ******** Campos para "Tempo de acumulação (us)" **************************
@@ -292,7 +300,7 @@ void launchMenuGUI(int argc, char *argv[]) {
             frameEventView(argc, argv); // Essa função NÃO deve usar widgets Qt
         //});
         //viewer_thread.detach(); // Executa paralelamente sem bloquear a GUI   
-        std::cout<<"Passei aqui!"<<std::endl; 
+        // std::cout<<"Passei aqui!"<<std::endl; 
 
         /*
         // Extrai os valores numéicos dos campos acc e fps:
@@ -497,17 +505,17 @@ bool escrever_biases_cam(const BiasFields_WR &campos_bias) {
     }   
 
     // efetua a leitura dos biases da camera:
-    auto biases_a = cam.get_device().get_facility<Metavision::I_LL_Biases>();
-    if (!biases_a) {
+    auto biases = cam.get_device().get_facility<Metavision::I_LL_Biases>();
+    if (!biases) {
         std::cerr << "Interface I_LL_Biases não disponível." << std::endl;
         return false;
     }
 
     std::cout<<"Valores antigos lidos da câmera:"<<std::endl;
-    std::cout<< "Valor lido do bias_diff_ON=" << biases_a->get("bias_diff_on")<<std::endl;
-    std::cout<< "Valor lido do bias_diff_OFF=" << biases_a->get("bias_diff_off")<<std::endl;
-    std::cout<< "Valor lido do bias_FO=" << biases_a->get("bias_fo")<<std::endl;
-    std::cout<< "Valor lido do bias_HPF=" << biases_a->get("bias_hpf")<<std::endl;
+    std::cout<< "Valor lido do bias_diff_ON=" << biases->get("bias_diff_on")<<std::endl;
+    std::cout<< "Valor lido do bias_diff_OFF=" << biases->get("bias_diff_off")<<std::endl;
+    std::cout<< "Valor lido do bias_FO=" << biases->get("bias_fo")<<std::endl;
+    std::cout<< "Valor lido do bias_HPF=" << biases->get("bias_hpf")<<std::endl;
     std::cout<<std::endl;
     
 
@@ -522,7 +530,7 @@ bool escrever_biases_cam(const BiasFields_WR &campos_bias) {
     // Escrita na câmera
     for (const auto &[nome, valor] : mapa_bias) {
         try {
-            if (!biases_a->set(nome, valor)) {
+            if (!biases->set(nome, valor)) {
                 std::cerr << "Falha ao escrever " << nome << std::endl;
                 return false;
             }

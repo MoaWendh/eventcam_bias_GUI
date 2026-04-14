@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI
+CMAKE_SOURCE_DIR = /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build
+CMAKE_BINARY_DIR = /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/build
 
 # Utility rule file for eventcam_GUI_autogen.
 
@@ -67,8 +67,8 @@ include CMakeFiles/eventcam_GUI_autogen.dir/compiler_depend.make
 include CMakeFiles/eventcam_GUI_autogen.dir/progress.make
 
 CMakeFiles/eventcam_GUI_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target eventcam_GUI"
-	/usr/bin/cmake -E cmake_autogen /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build/CMakeFiles/eventcam_GUI_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target eventcam_GUI"
+	/usr/bin/cmake -E cmake_autogen /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/build/CMakeFiles/eventcam_GUI_autogen.dir/AutogenInfo.json ""
 
 eventcam_GUI_autogen: CMakeFiles/eventcam_GUI_autogen
 eventcam_GUI_autogen: CMakeFiles/eventcam_GUI_autogen.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/eventcam_GUI_autogen.dir/clean:
 .PHONY : CMakeFiles/eventcam_GUI_autogen.dir/clean
 
 CMakeFiles/eventcam_GUI_autogen.dir/depend:
-	cd /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/build/CMakeFiles/eventcam_GUI_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/build /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/build /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/build/CMakeFiles/eventcam_GUI_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/eventcam_GUI_autogen.dir/depend
 

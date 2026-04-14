@@ -1,5 +1,5 @@
 CMakeFiles/eventcam_GUI.dir/src/menuGUI.cpp.o: \
- /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/src/menuGUI.cpp \
+ /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/src/menuGUI.cpp \
  /usr/include/stdc-predef.h \
  /usr/include/aarch64-linux-gnu/qt5/QtWidgets/QApplication \
  /usr/include/aarch64-linux-gnu/qt5/QtWidgets/qapplication.h \
@@ -500,6 +500,6 @@ CMakeFiles/eventcam_GUI.dir/src/menuGUI.cpp.o: \
  /usr/include/nlohmann/ordered_map.hpp \
  /usr/include/nlohmann/detail/macro_unscope.hpp \
  /usr/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
- /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/include/menuGUI.hpp \
- /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/include/eventoViewer.hpp \
- /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/include/menuGUI.hpp
+ /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/include/menuGUI.hpp \
+ /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/include/eventoViewer.hpp \
+ /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/include/menuGUI.hpp

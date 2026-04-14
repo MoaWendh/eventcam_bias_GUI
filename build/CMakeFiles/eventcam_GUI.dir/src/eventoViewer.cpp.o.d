@@ -1,5 +1,5 @@
 CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.o: \
- /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/src/eventoViewer.cpp \
+ /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/src/eventoViewer.cpp \
  /usr/include/stdc-predef.h \
  /usr/local/include/metavision/sdk/core/algorithms/periodic_frame_generation_algorithm.h \
  /usr/include/c++/11/functional \
@@ -298,7 +298,7 @@ CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.o: \
  /usr/include/c++/11/iostream /usr/include/c++/11/thread \
  /usr/include/c++/11/bits/std_thread.h \
  /usr/include/c++/11/bits/this_thread_sleep.h \
- /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/include/eventoViewer.hpp \
+ /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/include/eventoViewer.hpp \
  /usr/local/include/metavision/sdk/stream/camera.h \
  /usr/local/include/metavision/hal/device/device.h \
  /usr/local/include/metavision/hal/facilities/detail/facility_wrapper.h \
@@ -423,6 +423,6 @@ CMakeFiles/eventcam_GUI.dir/src/eventoViewer.cpp.o: \
  /usr/include/c++/11/variant \
  /usr/include/aarch64-linux-gnu/qt5/QtGui/qpen.h \
  /usr/include/aarch64-linux-gnu/qt5/QtGui/qtextoption.h \
- /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/include/menuGUI.hpp \
- /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/include/menuGUI.hpp \
- /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/include/camera_global.hpp
+ /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/include/menuGUI.hpp \
+ /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/include/menuGUI.hpp \
+ /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/include/camera_global.hpp

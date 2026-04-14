@@ -1,5 +1,5 @@
 CMakeFiles/eventcam_GUI.dir/src/main.cpp.o: \
- /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/src/main.cpp \
+ /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/src/main.cpp \
  /usr/include/stdc-predef.h \
  /usr/local/include/metavision/sdk/stream/camera.h \
  /usr/include/c++/11/cstdint \
@@ -322,7 +322,7 @@ CMakeFiles/eventcam_GUI.dir/src/main.cpp.o: \
  /usr/include/GL/glew.h /usr/include/GL/glu.h /usr/include/GL/gl.h \
  /usr/include/GLFW/glfw3.h \
  /usr/local/include/metavision/sdk/ui/utils/event_loop.h \
- /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/include/eventoViewer.hpp \
+ /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/include/eventoViewer.hpp \
  /usr/include/aarch64-linux-gnu/qt5/QtWidgets/QLineEdit \
  /usr/include/aarch64-linux-gnu/qt5/QtWidgets/qlineedit.h \
  /usr/include/aarch64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -419,6 +419,6 @@ CMakeFiles/eventcam_GUI.dir/src/main.cpp.o: \
  /usr/include/c++/11/variant \
  /usr/include/aarch64-linux-gnu/qt5/QtGui/qpen.h \
  /usr/include/aarch64-linux-gnu/qt5/QtGui/qtextoption.h \
- /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/include/menuGUI.hpp \
- /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/include/menuGUI.hpp \
- /home/jetson/workspace_eventcam/projects/evetcam_bias_GUI/include/camera_global.hpp
+ /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/include/menuGUI.hpp \
+ /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/include/menuGUI.hpp \
+ /home/jetson/workspace_eventcam/projects/eventcam_bias_GUI/include/camera_global.hpp
